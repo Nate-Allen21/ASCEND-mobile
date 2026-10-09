@@ -6,7 +6,16 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.ascend.evolution" },
-    "android": { "package": "com.ascend.evolution", "edgeToEdgeEnabled": true }
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ascend.evolution"
+    },
+    "android": {
+      "package": "com.ascend.evolution",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
